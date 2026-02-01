@@ -1,0 +1,33 @@
+# Core dependencies
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+langchain_ollama>=1.0.0
+langgraph>=1.0.0
+
+# Database
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+
+# Authentication & Security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.6
+
+# HTTP client
+httpx>=0.25.0
+requests>=2.31.0
+
+# Dashboard
+jinja2>=3.1.0
+python-dotenv>=1.0.0
+
+# Monitoring & Analytics
+psutil>=5.9.0
+redis>=5.0.0
+
+# Development
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+mypy>=1.7.0
